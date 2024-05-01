@@ -1,0 +1,17 @@
+version: '3.4'
+
+services: 
+
+  frontend:
+    image: store:latest
+    environment: 
+      - ProductEndpoint=http://backend:8080
+      - ConnectionStrings:AppConfig=[PASTE CONNECTION STRING HERE]
+    ports:
+      - "32000:8080"
+    depends_on: 
+      - backend
+  backend:
+    image: products:latest
+    ports: 
+      - "32001:8080"
