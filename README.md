@@ -10,7 +10,7 @@ The code in this repository supports a Learn module focused on automating CI/CD 
 - Modify and commit a Helm chart to trigger the deployment.
 - Revert the microservice to the previous deployment.
 
-Take the moudle on [Microsoft Learn Training](https://learn.microsoft.com/training/modules/microservices-devops-aspnet-core/)
+Take the module on [Microsoft Learn Training](https://learn.microsoft.com/training/modules/microservices-devops-aspnet-core/)
 
 # Contributing
 
